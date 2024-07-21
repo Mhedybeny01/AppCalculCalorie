@@ -1,0 +1,123 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+    height: 700;
+    width: 100%;
+
+}
+@media screen and (max-width:600px) {
+.t1{
+    color: aliceblue;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 55px;
+    margin-left: 18%;
+}
+#weight{
+   position: absolute;
+   top: 80px;
+   margin-left: 18%;
+   height: 30px;
+   width: 200px;
+   background-color: transparent;
+   border: 1px solid rgb(253, 253, 253);
+   
+   text-align: center;
+   color: aliceblue;
+   
+}
+#weight:hover{
+    border: 1px solid rgb(133, 133, 133);
+}
+.t2{
+    color: aliceblue;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top:135px;
+    margin-left: 18%;
+}
+#height{
+    position: absolute;
+    top: 160px;
+    margin-left: 18%;
+    height: 30px;
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid rgb(253, 253, 253);
+    
+    text-align: center;
+    color: aliceblue;
+    
+ }
+
+ #height:hover{
+    border: 1px solid rgb(133, 133, 133);
+}
+.t3{
+    color: aliceblue;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top:220px;
+    margin-left: 18%;
+}
+ #age{
+    position: absolute;
+    top: 240px;
+    margin-left: 18%;
+    height: 30px;
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid rgb(253, 253, 253);
+    
+    text-align: center;
+    color: aliceblue;
+    
+ }
+ #age:hover{
+    border: 1px solid rgb(133, 133, 133);
+}
+.t4{
+    color: aliceblue;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top:315px;
+    margin-left: 18%;
+}
+ #result{
+    position: absolute;
+    top: 340px;
+    margin-left: 18%;
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid rgb(253, 253, 253);
+    
+    text-align: center;
+    color: aliceblue;
+    
+ }
+
+
+ #click{
+    position: absolute;
+    top: 430px;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 42%;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#click:hover{
+    border: 1px solid rgb(133, 133, 133);
+}
+}
