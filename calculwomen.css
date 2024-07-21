@@ -14,7 +14,14 @@ body{
 }
 @media screen and (max-width:600px) {
 
-
+    .home{
+        color: rgb(243, 44, 217);
+        font-size: 25px;
+        position: absolute;
+        top: 20px;
+        margin-left: 47%;
+    
+    }
 
 
     .cls{
