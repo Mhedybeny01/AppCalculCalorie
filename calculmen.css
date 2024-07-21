@@ -4,23 +4,31 @@
 }
 body{
     background-color: black;
-    height: 700;
+    height: 550px;
     width: 100%;
 
 }
 .backapp{
-    height: 730px;
+    height: 600px;
     width: 100%;
 }
 @media screen and (max-width:600px) {
 
 
+.home{
+    color: rgb(85, 112, 233);
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    padding-left: 47%;
+
+}
 
 
     .cls{
         position: absolute;
         top: 70px;
-        padding-left: 19%;
+        padding-left: 15%;
         font-family:Arial, Helvetica, sans-serif;
         color: rgb(237, 237, 240);
     }
@@ -30,12 +38,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top: 140px;
-    margin-left: 15%;
+    margin-left: 11%;
 }
 #weight{
    position: absolute;
    top: 160px;
-   margin-left: 15%;
+   margin-left: 11%;
    height: 30px;
    width: 270px;
    background-color: transparent;
@@ -55,12 +63,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top:220px;
-    margin-left: 15%;
+    margin-left: 11%;
 }
 #height{
     position: absolute;
     top: 240px;
-    margin-left: 15%;
+    margin-left: 11%;
     height: 30px;
     width: 270px;
     background-color: transparent;
@@ -81,12 +89,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top:300px;
-    margin-left: 15%;
+    margin-left: 11%;
 }
  #age{
     position: absolute;
     top: 320px;
-    margin-left: 15%;
+    margin-left: 11%;
     height: 30px;
     width: 270px;
     background-color: transparent;
@@ -106,12 +114,12 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
     top:380px;
-    margin-left: 15%;
+    margin-left: 11%;
 }
  #result{
     position: absolute;
     top: 400px;
-    margin-left: 15%;
+    margin-left: 11%;
     height: 50px;
     width: 270px;
     background-color: transparent;
@@ -131,7 +139,7 @@ body{
     border:0px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
-    margin-left: 26%;
+    margin-left: 23%;
     height: 50px;
     width: 200px;
     border-radius: 8px;
