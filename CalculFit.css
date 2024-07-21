@@ -4,13 +4,17 @@
 }
 
 body{
-    background-color: black;
+    
     height: 700;
     width: 100%;
 
 }
+
 @media screen and (max-width:600px) {
-    
+    .img1{
+        height: 730px;
+        width: 100%;
+    }
     .t1{
         position: absolute;
         top: 250px;
@@ -22,14 +26,22 @@ body{
 
     .open{
         position: absolute;
-        top: 350px;
+        top: 450px;
         background-color: transparent;
         border: 1px solid rgb(184, 184, 184);
         font-family: Arial, Helvetica, sans-serif;
         color: rgb(255, 255, 255);
-        margin-left: 43%;
-        padding: 10px;
-        border-radius: 10px;
+        margin-left: 32%;
+        height: 40px;
+        width: 135px;
+        border-radius: 7px;
         cursor: pointer;
+        transition: 0.3s;
+        font-size: 15px;
+    }
+
+    .open:hover{
+        border: 1px solid rgb(34, 34, 250);
+        transition: 0.3s;
     }
 }

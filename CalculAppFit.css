@@ -2,56 +2,56 @@
     padding: 0%;
     margin: 0%;
 }
-
+.backapp{
+    height: 700px;
+    width: 100%;
+}
 
 @media screen and (max-width:600px) {
-    .choise{
-        background-color: black;
-        height: 700px;
-        width: 100%;
-
-    }
-
+   
+    
     .sh{
         position: absolute;
-        top: 250px;
+        top: 300px;
         font-family: Arial, Helvetica, sans-serif;
         color: white;
-        text-shadow: 0px 0px 8px rgba(185, 185, 185, 0.705);
-        padding-left: 18%;
+        text-shadow: 0px 0px 3px rgba(185, 185, 185, 0.705);
+        padding-left: 26%;
     }
 
     .img1{
         height: 150px;
         width: 170px;
         position: absolute;
-        top: 85px;
-        padding-left:23% ;
+        top: 95px;
+        padding-left:26% ;
 
     }
 
     .men{
         position: absolute;
-        top: 350px;
+        top: 420px;
         background-color: transparent;
         border: 1px solid rgb(28, 116, 248);
         font-family: Arial, Helvetica, sans-serif;
         color: rgb(255, 255, 255);
-        margin-left: 39%;
-        padding: 11px;
+        margin-left: 30%;
+        height: 50px;
+        width: 150px;
         border-radius: 10px;
         cursor: pointer;
     }
 
     .women{
         position: absolute;
-        top: 400px;
+        top: 480px;
         background-color: transparent;
         border: 1px solid rgb(231, 9, 252);
         font-family: Arial, Helvetica, sans-serif;
         color: rgb(255, 255, 255);
-        margin-left: 38%;
-        padding: 11px;
+        margin-left: 30%;
+        height: 50px;
+        width: 150px;
         border-radius: 10px;
         cursor: pointer;
     }
